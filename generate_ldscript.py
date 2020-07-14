@@ -154,7 +154,7 @@ def main(argv):
         "memories": sorted_memories,
         "ram_memories": sorted_ram_memories,
         "default_stack_size": "0x400",
-        "default_heap_size": "0x800",
+        "default_heap_size": "0x8000",
         "num_harts": len(harts),
         "boot_hart": boot_hart,
         "chicken_bit": 1,
